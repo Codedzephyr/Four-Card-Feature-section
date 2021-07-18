@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -14,6 +16,8 @@
 
 body {
   max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 main {
@@ -26,20 +30,17 @@ main {
 section {
   width: 90%;
   min-height: calc(90vh - 12.8px);
-
 }
 
 .heading {
   color: hsl(234, 12%, 34%);
   font-weight: 200;
   text-align: center;
-  font-family: Poppins;
 }
 
 .heading1 {
   color: hsl(234, 12%, 34%);
   text-align: center;
-  font-family: Poppins;
 }
 
 .paragraph {
@@ -89,7 +90,6 @@ section {
 
 .heading-content {
   color: hsl(234, 12%, 34%);
-  font-family: Poppins;
 }
 
 .supervisor {
